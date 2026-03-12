@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Enable dark mode using selector (.dark) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   /* Custom Colors */
   --color-lightHover: #fcf4ff;
@@ -16,14 +19,9 @@
 
   /* Grid */
   --grid-cols-auto: repeat(auto-fit, minmax(280px, 1fr));
-
 }
 
 /* Optional global font */
 * {
   font-family: "Outfit", sans-serif;
 }
-
-/* body {
-  font-family: var(--font-Outfit);
-} */
