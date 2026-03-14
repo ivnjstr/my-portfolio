@@ -39,7 +39,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, totam quo quae officia suscipit cum accusantium porro id consequuntur dolores ipsum nulla! Perferendis dolores est incidunt optio magnam officiis id.
+                    I’m a Computer Engineering graduate and a passionate Frontend Web Developer based in the Philippines. I enjoy building responsive and modern websites that focus on clean design and smooth user experience. I continuously improve my skills in technologies like HTML, CSS, JavaScript, React, and Next.js while exploring new tools that help create better web applications.
                 </p>
                 <motion.ul
                 initial={{opacity: 0}}
@@ -66,12 +66,12 @@ const About = ({isDarkMode}) => {
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.8, delay: 1}}
                 className='flex items-center gap-3 sm:gap-5'>
-                    {toolsData.map((tool, index) => (
+                    {toolsData.map(({icon, iconDark}, index) => (
                         <motion.li 
                         whileHover={{ scale: 1.1 }}
                         className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 ' key={index} >
-                            <Image src={tool} alt='' className='w-5 sm:w-7'/>
-                            <span>{tool.name}</span>
+                            <Image src={isDarkMode && iconDark ? iconDark : icon} alt='' className='w-5 sm:w-7'/>
+                            {/* <span>{tool.name}</span> */}
                         </motion.li>
                     ))}
                 </motion.ul>

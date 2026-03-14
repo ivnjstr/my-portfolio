@@ -25,7 +25,7 @@ const Services = () => {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.5, delay: 0.7}}
-        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio laborum ullam provident quam, beatae facilis aperiam perspiciatis fugiat reiciendis perferendis ad earum sed similique velit consectetur fuga nemo eligendi?</motion.p>
+        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I help businesses and individuals build modern, responsive, and user-friendly websites. My focus is on creating clean designs, fast performance, and smooth user experiences using modern web technologies.</motion.p>
 
         <motion.div
         initial={{opacity: 0}}

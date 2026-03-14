@@ -30,7 +30,7 @@ const Header = () => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 0.6, delay: 0.7}}
-      className='max-w-2xl mx-auto font-Ovo'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, maiores?</motion.p>
+      className='max-w-2xl mx-auto font-Ovo'>specializing in building fast, responsive, and modern websites. I help businesses and individuals bring their ideas online by creating clean, functional, and user-friendly web experiences.</motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a

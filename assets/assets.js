@@ -35,6 +35,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github from './github-logo.png';
+import tailwindcss from './tailwindcss.svg';
+import elementor from './elementor-icon.png';
+import shopify from './shopify.png';
+import github_dark from './github-logo-white.png';
 
 export const assets = {
     user_image,
@@ -73,7 +78,12 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    github,
+    tailwindcss,
+    elementor,
+    shopify,
+    github_dark
 };
 
 export const workData = [
@@ -100,18 +110,25 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Designing clean and modern website layouts that focus on user experience, readability, and visual appeal.', link: '' },
+    { icon: assets.mobile_icon, title: 'Frontend Development', description: 'Building responsive and interactive websites using modern technologies like HTML, CSS, JavaScript, React, and Next.js.', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'Creating intuitive user interfaces and improving user experience to make websites easy to use and visually engaging.', link: '' },
+    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Customizing and improving websites using tools like Tailwind CSS, Elementor, and Shopify Liquid to match business needs.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, PHP, Liquid' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BS Computer Engineering' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, PHP, Shopify Liquid' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Science in Computer Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    { icon: assets.vscode },
+    { icon: assets.mongodb },
+    { icon: assets.figma },
+    { icon: assets.git },
+    { icon: assets.github, iconDark: assets.github_dark },
+    { icon: assets.tailwindcss },
+    { icon: assets.elementor },
+    { icon: assets.shopify },
 ];
