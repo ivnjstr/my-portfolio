@@ -65,7 +65,7 @@ const About = ({isDarkMode}) => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.8, delay: 1}}
-                className='flex items-center gap-3 sm:gap-5'>
+                className='flex items-center gap-3 sm:gap-5 flex-wrap max-w-2xl'>
                     {toolsData.map(({icon, iconDark}, index) => (
                         <motion.li 
                         whileHover={{ scale: 1.1 }}
